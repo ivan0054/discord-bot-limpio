@@ -64,7 +64,7 @@ public class CryptoService {
                 result.append(String.format("💰 Precio: %s\n\n", currencyFormatter.format(price)));
                 result.append(String.format("%s 24h: %s%.2f%%\n\n", changeEmoji, changeSign, change24h));
             }
-            // cardano and polkadot similar...
+         
             result.append("📊 *Datos proporcionados por CoinGecko*");
             return result.toString();
         } catch (Exception e) {
